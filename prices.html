@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal portfolio website design</title>
+	<!---custom css link--->
+	<link rel="stylesheet" type="text/css" href="css/style-prices.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+	</script>
+</head>
+<body>
+
+	<!---Precios--->
+	<section class="services" id="services" >
+		<div class="main-text">
+			
+			<h2>Select your favorite Plan</h2>
+			<h4>Single payment, quite an occasion!!!</h4>
+		</div>
+
+		<div class="prices-content" data-speed="0.5">
+			
+			<div class="c1">
+				<div class="prices">
+					<img id="imgDino" src="img/beard.gif">
+					<h3>$25 <span>USD</span></h3>
+					<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
+					<a href="#" class="btn">Buy</a>
+				</div>
+			</div>
+			
+<div class="c2">
+	<div class="prices"  >
+		<img src="img/film.gif">
+		<h3>$50 <span>USD</span></h3>
+		<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
+		<a href="#" class="btn">Buy</a>
+	</div>
+</div>
+			
+<div class="c3">
+	<div class="prices">
+		<img id="imgDino" src="img/book.gif">
+		<h3>$100 <span>USD</span></h3>
+		<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
+		<a href="#" class="btn">Buy</a>
+	</div>
+</div>
+			
+		</div>		
+	</section>
+	<div class="info">
+		<img src="img/Paypal.svg" alt="">
+		<a href="https://www.paypal.com/us/smarthelp/topic/PAYMENTS_AND_TRANSFERS_PER" target="_blank">
+			<h2>All payments are made through the secure <span class="link">PayPal</span>  platform</h2>
+		</a>
+    
+	</div>
+
+
+	
+	<div class="last-text">
+		<p>Developed with love by Tahmid Hamim © 2022</p>
+	</div>
+
+	
+
+	<!---scroll-top--->
+	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+	
+	
+	<script>
+		ScrollReveal().reveal('.main-text', { scale: 0.85, delay:100 });
+		
+		ScrollReveal().reveal('.info', { scale: 0.85, delay:300});
+		
+		ScrollReveal({ distance: '60px' });
+        ScrollReveal().reveal('.c1', { origin: 'top', delay:200 });
+		ScrollReveal().reveal('.c2', { origin: 'top', delay:300 });
+		ScrollReveal().reveal('.c3', { origin: 'top', delay:400 });
+		
+	</script>
+
+</body>
+</html>

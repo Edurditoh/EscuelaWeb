@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+:root{
+	--bg-color: #020312;
+	--text-color: #fff;
+	--main-color: #ab4aeb;
+	--second-color: gray;
+	--other-color: #12141c;
+	--h1-font: 5.2rem;
+	--h2-font: 3.5rem;
+	--p-font: 1.1rem;
+}
+body{
+	background: var(--bg-color);
+	background-attachment: fixed;
+	color: var(--text-color);
+}
+
+section{
+	padding: 160px 16% 90px;
+}
+
+.main-text{
+	text-align: center;
+}
+.main-text h2{
+	font-size: var(--h2-font);
+	margin-bottom: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.main-text h4{
+	color: var(--main-color);
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.prices-content{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	align-items: center;
+	text-align: center;
+	gap: 2rem;
+	margin-top: 5rem;
+}
+
+.prices{
+	padding: 45px;
+	background: radial-gradient(ellipse at bottom, #31063a 0%, #090a0f 100%);
+	
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.prices img{
+width: 40%;
+}
+
+.prices h3{
+	font-size: 50px;
+	font-weight: 600;
+	margin: 15px 0;
+	font-family: 'Rajdhani', sans-serif;
+	transition: all .40s ease;
+}
+.prices p{
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.prices:hover{
+	transform: scale(1.08) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+	background: radial-gradient(ellipse at bottom, #480057 0%, #090a0f 100%);
+	
+}
+.prices:hover h3{
+	color: var(--main-color);
+	
+}
+
+.info{
+	padding-bottom: 200px;	
+}
+
+span{
+	color: var(--main-color);
+	font-size: 15PX;
+	
+}
+
+.info img{
+	width: 50px;
+	justify-content: center;
+	align-items: center;
+	display: block;
+	margin: 0px auto;
+
+}
+
+.info h2{
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;	
+	color:#ab4aeb;
+	font-size: 15px;
+	font-weight: 600;	
+}
+
+ .link{
+	color: rgb(253, 193, 255);
+	cursor: pointer;
+}
+
+.link:hover{
+	text-decoration: underline;
+	color: rgb(196, 20, 202);
+	transition: all 0.25s;
+}
+
+.btn{
+	display: inline-block;
+    margin-top: 30px;
+	padding: 10px 40px;
+	border-radius: 0.5rem;
+	font-size: 17px;
+	font-weight: 500;
+	background: var(--main-color);
+	color: var(--text-color);
+	border: 1px solid var(--main-color);
+	transition: all .40s ease;
+}
+.btn:hover{
+	transform: scale(1.01) translateY(-5px);
+	background: transparent;
+	border: 1px solid var(--main-color);
+}
+
+/* end prices TAG */
